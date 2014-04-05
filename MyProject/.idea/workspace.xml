@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f04fc52e-eeaa-4c8f-919f-2ff71f8a982c" name="Default" comment="" />
+    <ignored path="MyProject.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MyProject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="regist.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="3077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jinja2" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="47" selection-start="594" selection-end="594" vertical-scroll-proportion="0.53968257" vertical-offset="0" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_template.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/new_template.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="66" selection-start="741" selection-end="741" vertical-scroll-proportion="-4.576923" vertical-offset="51" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template2.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/template2.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="144" selection-end="157" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="33" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/myproject/templates/new_template.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/templates/template2.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/__init__.py" />
+        <option value="$PROJECT_DIR$/myproject/static/style.css" />
+        <option value="$PROJECT_DIR$/myproject/templates/index.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/views.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/regist.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/templates/home.jinja2" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1359" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Pyramid server.MyProject">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.PyramidServer" factoryName="Pyramid server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests in setup.py" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\env\Scripts\MyProject\setup.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyProject" type="Python.PyramidServer" factoryName="Pyramid server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="D:\env\Scripts\MyProject\development.ini" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Tests in setup.py" />
+      <item index="1" class="java.lang.String" itemvalue="Pyramid server.MyProject" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f04fc52e-eeaa-4c8f-919f-2ff71f8a982c" name="Default" comment="" />
+      <created>1396073156506</created>
+      <updated>1396073156506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1359" height="728" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="65" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="18" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="18" selection-start="6397" selection-end="6397" vertical-scroll-proportion="0.0" vertical-offset="5644" max-vertical-offset="6783">
+          <folding>
+            <element signature="e#24#204#0" expanded="false" />
+            <element signature="e#211#341#0" expanded="false" />
+            <element signature="e#358#458#0" expanded="false" />
+            <element signature="e#480#667#0" expanded="false" />
+            <element signature="e#694#732#0" expanded="false" />
+            <element signature="e#756#800#0" expanded="false" />
+            <element signature="e#847#891#0" expanded="false" />
+            <element signature="e#916#1006#0" expanded="false" />
+            <element signature="e#1037#1100#0" expanded="false" />
+            <element signature="e#1135#1171#0" expanded="false" />
+            <element signature="e#1190#1274#0" expanded="false" />
+            <element signature="e#1295#1512#0" expanded="false" />
+            <element signature="e#1532#1705#0" expanded="false" />
+            <element signature="e#1726#1747#0" expanded="false" />
+            <element signature="e#1783#1956#0" expanded="false" />
+            <element signature="e#2019#2297#0" expanded="false" />
+            <element signature="e#2325#2603#0" expanded="false" />
+            <element signature="e#2625#2701#0" expanded="false" />
+            <element signature="e#2731#2981#0" expanded="false" />
+            <element signature="e#3011#3132#0" expanded="false" />
+            <element signature="e#3162#3284#0" expanded="false" />
+            <element signature="e#3313#3456#0" expanded="false" />
+            <element signature="e#3501#3644#0" expanded="false" />
+            <element signature="e#3679#3822#0" expanded="false" />
+            <element signature="e#3854#3886#0" expanded="false" />
+            <element signature="e#3911#3957#0" expanded="false" />
+            <element signature="e#3983#4006#0" expanded="false" />
+            <element signature="e#4034#4108#0" expanded="false" />
+            <element signature="e#4144#4203#0" expanded="false" />
+            <element signature="e#4240#4299#0" expanded="false" />
+            <element signature="e#4326#4438#0" expanded="false" />
+            <element signature="e#4465#4577#0" expanded="false" />
+            <element signature="e#4604#4716#0" expanded="false" />
+            <element signature="e#4742#4762#0" expanded="false" />
+            <element signature="e#4789#4818#0" expanded="false" />
+            <element signature="e#5191#5222#0" expanded="false" />
+            <element signature="e#5252#5283#0" expanded="false" />
+            <element signature="e#5325#5345#0" expanded="false" />
+            <element signature="e#5377#5449#0" expanded="false" />
+            <element signature="e#5478#5522#0" expanded="false" />
+            <element signature="e#5567#5611#0" expanded="false" />
+            <element signature="e#5646#5695#0" expanded="false" />
+            <element signature="e#5712#5916#0" expanded="false" />
+            <element signature="e#5950#5999#0" expanded="false" />
+            <element signature="e#6023#6067#0" expanded="false" />
+            <element signature="e#6091#6142#0" expanded="false" />
+            <element signature="e#6160#6209#0" expanded="false" />
+            <element signature="e#6235#6255#0" expanded="false" />
+            <element signature="e#6273#6409#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="24" selection-start="6055" selection-end="6055" vertical-scroll-proportion="0.0" vertical-offset="5051" max-vertical-offset="6766">
+          <folding>
+            <element signature="e#24#204#0" expanded="false" />
+            <element signature="e#211#341#0" expanded="false" />
+            <element signature="e#358#458#0" expanded="false" />
+            <element signature="e#480#667#0" expanded="false" />
+            <element signature="e#694#732#0" expanded="false" />
+            <element signature="e#756#800#0" expanded="false" />
+            <element signature="e#847#891#0" expanded="false" />
+            <element signature="e#916#1006#0" expanded="false" />
+            <element signature="e#1037#1100#0" expanded="false" />
+            <element signature="e#1135#1171#0" expanded="false" />
+            <element signature="e#1190#1274#0" expanded="false" />
+            <element signature="e#1295#1512#0" expanded="false" />
+            <element signature="e#1532#1705#0" expanded="false" />
+            <element signature="e#1726#1747#0" expanded="false" />
+            <element signature="e#1783#1956#0" expanded="false" />
+            <element signature="e#2019#2297#0" expanded="false" />
+            <element signature="e#2325#2603#0" expanded="false" />
+            <element signature="e#2625#2701#0" expanded="false" />
+            <element signature="e#2731#2981#0" expanded="false" />
+            <element signature="e#3011#3132#0" expanded="false" />
+            <element signature="e#3162#3284#0" expanded="false" />
+            <element signature="e#3313#3456#0" expanded="false" />
+            <element signature="e#3501#3644#0" expanded="false" />
+            <element signature="e#3679#3822#0" expanded="false" />
+            <element signature="e#3854#3886#0" expanded="false" />
+            <element signature="e#3911#3957#0" expanded="false" />
+            <element signature="e#3983#4006#0" expanded="false" />
+            <element signature="e#4034#4108#0" expanded="false" />
+            <element signature="e#4144#4203#0" expanded="false" />
+            <element signature="e#4240#4299#0" expanded="false" />
+            <element signature="e#4326#4438#0" expanded="false" />
+            <element signature="e#4465#4577#0" expanded="false" />
+            <element signature="e#4604#4716#0" expanded="false" />
+            <element signature="e#4742#4762#0" expanded="false" />
+            <element signature="e#4789#4818#0" expanded="false" />
+            <element signature="e#5191#5222#0" expanded="false" />
+            <element signature="e#5252#5283#0" expanded="false" />
+            <element signature="e#5325#5345#0" expanded="false" />
+            <element signature="e#5377#5449#0" expanded="false" />
+            <element signature="e#5478#5522#0" expanded="false" />
+            <element signature="e#5567#5611#0" expanded="false" />
+            <element signature="e#5646#5695#0" expanded="false" />
+            <element signature="e#5712#5916#0" expanded="false" />
+            <element signature="e#5950#5999#0" expanded="false" />
+            <element signature="e#6023#6067#0" expanded="false" />
+            <element signature="e#6091#6142#0" expanded="false" />
+            <element signature="e#6160#6209#0" expanded="false" />
+            <element signature="e#6235#6255#0" expanded="false" />
+            <element signature="e#6273#6409#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pserve-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/new_template.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/template2.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pserve-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="0" selection-end="3516" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="61" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/new_template.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="91" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pserve-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pserve-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.26748252" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="15" selection-start="290" selection-end="290" vertical-scroll-proportion="0.25801012" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="1.222597" vertical-offset="193" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="608" selection-end="608" vertical-scroll-proportion="-0.032040473" vertical-offset="529" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.64440435" vertical-offset="0" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/new_template.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="741" selection-end="741" vertical-scroll-proportion="-4.576923" vertical-offset="51" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/template2.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="144" selection-end="157" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="1" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.51602024" vertical-offset="0" max-vertical-offset="2278">
+          <folding>
+            <element signature="e#24#204#0" expanded="false" />
+            <element signature="e#211#341#0" expanded="false" />
+            <element signature="e#358#458#0" expanded="false" />
+            <element signature="e#480#667#0" expanded="false" />
+            <element signature="e#694#732#0" expanded="false" />
+            <element signature="e#756#800#0" expanded="false" />
+            <element signature="e#847#891#0" expanded="false" />
+            <element signature="e#916#1006#0" expanded="false" />
+            <element signature="e#1037#1100#0" expanded="false" />
+            <element signature="e#1135#1171#0" expanded="false" />
+            <element signature="e#1190#1274#0" expanded="false" />
+            <element signature="e#1295#1512#0" expanded="false" />
+            <element signature="e#1532#1705#0" expanded="false" />
+            <element signature="e#1726#1747#0" expanded="false" />
+            <element signature="e#1783#1956#0" expanded="false" />
+            <element signature="e#2019#2297#0" expanded="false" />
+            <element signature="e#2325#2603#0" expanded="false" />
+            <element signature="e#2625#2701#0" expanded="false" />
+            <element signature="e#2731#2981#0" expanded="false" />
+            <element signature="e#3011#3132#0" expanded="false" />
+            <element signature="e#3162#3284#0" expanded="false" />
+            <element signature="e#3313#3456#0" expanded="false" />
+            <element signature="e#3501#3644#0" expanded="false" />
+            <element signature="e#3679#3822#0" expanded="false" />
+            <element signature="e#3854#3886#0" expanded="false" />
+            <element signature="e#3911#3957#0" expanded="false" />
+            <element signature="e#3983#4006#0" expanded="false" />
+            <element signature="e#4034#4108#0" expanded="false" />
+            <element signature="e#4144#4203#0" expanded="false" />
+            <element signature="e#4240#4299#0" expanded="false" />
+            <element signature="e#4326#4438#0" expanded="false" />
+            <element signature="e#4465#4577#0" expanded="false" />
+            <element signature="e#4604#4716#0" expanded="false" />
+            <element signature="e#4742#4762#0" expanded="false" />
+            <element signature="e#4789#4818#0" expanded="false" />
+            <element signature="e#5191#5222#0" expanded="false" />
+            <element signature="e#5252#5283#0" expanded="false" />
+            <element signature="e#5325#5345#0" expanded="false" />
+            <element signature="e#5377#5449#0" expanded="false" />
+            <element signature="e#5478#5522#0" expanded="false" />
+            <element signature="e#5567#5611#0" expanded="false" />
+            <element signature="e#5646#5695#0" expanded="false" />
+            <element signature="e#5712#5916#0" expanded="false" />
+            <element signature="e#5950#5999#0" expanded="false" />
+            <element signature="e#6023#6067#0" expanded="false" />
+            <element signature="e#6091#6142#0" expanded="false" />
+            <element signature="e#6160#6209#0" expanded="false" />
+            <element signature="e#6235#6255#0" expanded="false" />
+            <element signature="e#6273#6409#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="594" selection-end="594" vertical-scroll-proportion="0.53968257" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

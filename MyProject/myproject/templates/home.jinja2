@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Genealogical Tree</title>
+		<link href="static/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div class="topmenu">
+					<span class="home"><a title="Войти" href="#"><img src="static/homebttn.png" alt="Home" /></a></span>
+				</div>
+				<h1 class="logo"><a href="#">Генеалогическое древо</a>
+				</h1>
+			</div>
+			<div id="mainmenu">
+				<ul>
+                    {%  block active_element%}
+                        <li class="active"><a href="/">Главная</a></li>
+                        <li><a href="registration">Личный кабинет</a></li>
+                        <li><a href="#">Поиск</a></li>
+                        <li><a href="#">О нас</a></li>
+                    {% endblock %}
+				</ul>
+			</div>
+			<div id="contents">
+{#				<div id="contenttop"></div>#}
+                {%  block sidebar%}{% endblock %}
+				<div id="left">
+                {%  block leftblock%}
+					<h1>Добро пожаловать!</h1>
+					<p>
+					</p>
+                {% endblock %}
+				</div>
+			</div>
+			<div id="footer">
+			</div>
+		</div>
+	</body>
+</html>
