@@ -18,19 +18,39 @@
                     {%  block active_element%}
                         <li class="active"><a href="/">Главная</a></li>
                         <li><a href="registration">Личный кабинет</a></li>
-                        <li><a href="#">Поиск</a></li>
+                        <li><a href="search">Поиск</a></li>
                         <li><a href="#">О нас</a></li>
                     {% endblock %}
 				</ul>
 			</div>
 			<div id="contents">
 {#				<div id="contenttop"></div>#}
-                {%  block sidebar%}{% endblock %}
+                {%  block sidebar%}
+                    <div id="sidebar">
+                        <h2>Вход</h2>
+                        <form action="" method="post">
+                            <table>
+                                <tr>
+                                    <td align="right">Логин или email</td>
+                                    <td><input type="text" name="login" size="25"></td>
+                                </tr>
+
+                                <tr>
+                                    <td align="right">Пароль</td>
+                                    <td><input type="text" name="password" size="25"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                {% endblock %}
 				<div id="left">
                 {%  block leftblock%}
 					<h1>Добро пожаловать!</h1>
 					<p>
-					</p>
+                        <img class="align_left" src="static/gen_tree.jpg" alt="Genealogic Tree" width="205" height="184" />
+                        Мы рады приветствовать вас на нашем сайте. Здесь вы можете создать генеалогические древа своей семьи.
+                        А также найти информацию о своих родственниках, возможно оставленную другими пользователями нашего проекта.
+                    </p>
                 {% endblock %}
 				</div>
 			</div>

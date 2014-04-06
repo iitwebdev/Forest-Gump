@@ -225,11 +225,12 @@ body {
 
 #wrap #contents #left {
 	margin-right: 350px;
-	padding-left: 25px;
+	padding-left: 25px; /*отступ от левого края*/
+    margin-bottom: 100px;
 }
 
 #wrap #contents #left p {
-	line-height: 22px;
+	line-height: 22px; /*межстрочный интервал*/
 }
 
 #wrap #contents #left img {
@@ -241,7 +242,7 @@ body {
 #wrap #contents #left .align_left {
 	float: left;
 	margin-right: 15px;
-	margin-bottom: 5px;
+	margin-bottom: 5px; /*отступ от нижнего края*/
 }
 
 #wrap #contents #left .align_right {
@@ -279,14 +280,14 @@ body {
 	list-style-type: square;
 }
 
-#wrap #contents #left table {
+table {
 	width: 100%;
 	border: 0;
     cellspacing: "5";
     cellpadding: "5";
 }
 
-#wrap #contents #left td {
+td {
 	background-color: #D5D3B8;
 	color: #993300;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
@@ -332,7 +333,7 @@ body {
 
 
 #wrap #footer {
-	margin-top: 15px;
+	margin-top: 50px;
 	margin-right: 35px;
 	margin-bottom: 0px;
 	margin-left: 35px;

@@ -3,7 +3,7 @@
 {%  block active_element%}
     <li><a href="/">Главная</a></li>
     <li class="active"><a href="registration">Личный кабинет</a> </li>
-    <li><a href="#">Поиск</a></li>
+    <li><a href="search">Поиск</a></li>
     <li><a href="#">О нас</a></li>
 {% endblock %}
 
@@ -23,20 +23,9 @@
 	<p>
         <form action="" method="post">
             <table>
-
                 <tr>
-                    <td align="right">Фамилия</td>
-                    <td><input type="text" name="surname" size="25"></td>
-                </tr>
-
-                <tr>
-                    <td align="right">Имя </td>
-                    <td><input type="text" name="name" size="25"></td>
-                </tr>
-
-                <tr>
-                    <td align="right">Отчество </td>
-                    <td><input type="text" name="middlename" size="25"></td>
+                    <td align="right">Логин</td>
+                    <td><input type="text" name="login" size="25"></td>
                 </tr>
 
                 <tr>
