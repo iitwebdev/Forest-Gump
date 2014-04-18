@@ -18,7 +18,6 @@ body {
 	font-size: 14px;
 }
 
-
 #wrap #header {
 	background-image: url(header.png);
 	background-repeat: no-repeat;
@@ -69,7 +68,6 @@ body {
 	border : none;
 	display: block;
 }
-
 
 #wrap #mainmenu {
 	background-image: url(menu.png);
@@ -207,6 +205,11 @@ body {
 	text-decoration: none;
 }
 
+#wrap #contents #sidebar .active a{
+	color: #CC6600;
+    font-weight: 700;
+}
+
 #wrap #contents #sidebar a:hover {
 	display: block;
 	height: 25px;
@@ -221,7 +224,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-
 
 #wrap #contents #left {
 	margin-right: 350px;
@@ -296,6 +298,11 @@ td {
     font-size: 12;
     vertical-align: middle;
     height: 30px;
+}
+
+table button{
+    padding: 0;
+    border: 0;
 }
 
 #wrap #contents #left .alt1 {

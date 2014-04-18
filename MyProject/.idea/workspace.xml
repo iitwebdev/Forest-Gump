@@ -26,7 +26,28 @@
       <file leaf-file-name="regist.jinja2" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="762" selection-end="762" vertical-scroll-proportion="-6.5384617" vertical-offset="306" max-vertical-offset="2890">
+            <state line="5" column="20" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="3026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/profile.jinja2">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="-8.84" vertical-offset="51" max-vertical-offset="2686">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_trees.jinja2" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/my_trees.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="0.22045855" vertical-offset="62" max-vertical-offset="2312">
               <folding />
             </state>
           </provider>
@@ -35,17 +56,28 @@
       <file leaf-file-name="home.jinja2" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="731" selection-end="737" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1139">
+            <state line="27" column="35" selection-start="959" selection-end="959" vertical-scroll-proportion="-7.8461537" vertical-offset="255" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.jinja2" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.jinja2" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/templates/search.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.659612" vertical-offset="153" max-vertical-offset="1105">
+            <state line="15" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1292">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/about.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+              <folding>
+                <marker date="1397790376708" expanded="true" signature="317:525" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,62 +85,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="21" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="2516">
-              <folding>
-                <element signature="e#24#204#0" expanded="false" />
-                <element signature="e#211#341#0" expanded="false" />
-                <element signature="e#358#458#0" expanded="false" />
-                <element signature="e#480#667#0" expanded="false" />
-                <element signature="e#694#732#0" expanded="false" />
-                <element signature="e#756#800#0" expanded="false" />
-                <element signature="e#847#891#0" expanded="false" />
-                <element signature="e#916#1006#0" expanded="false" />
-                <element signature="e#1037#1100#0" expanded="false" />
-                <element signature="e#1135#1171#0" expanded="false" />
-                <element signature="e#1190#1274#0" expanded="false" />
-                <element signature="e#1295#1512#0" expanded="false" />
-                <element signature="e#1532#1705#0" expanded="false" />
-                <element signature="e#1726#1747#0" expanded="false" />
-                <element signature="e#1783#1956#0" expanded="false" />
-                <element signature="e#2019#2297#0" expanded="false" />
-                <element signature="e#2325#2603#0" expanded="false" />
-                <element signature="e#2625#2701#0" expanded="false" />
-                <element signature="e#2731#2981#0" expanded="false" />
-                <element signature="e#3011#3132#0" expanded="false" />
-                <element signature="e#3162#3284#0" expanded="false" />
-                <element signature="e#3313#3456#0" expanded="false" />
-                <element signature="e#3501#3644#0" expanded="false" />
-                <element signature="e#3679#3822#0" expanded="false" />
-                <element signature="e#3854#3886#0" expanded="false" />
-                <element signature="e#4430#4542#0" expanded="false" />
-                <element signature="e#4569#4681#0" expanded="false" />
-                <element signature="e#4708#4820#0" expanded="false" />
-                <element signature="e#4846#4866#0" expanded="false" />
-                <element signature="e#4893#4922#0" expanded="false" />
-                <element signature="e#4930#5003#0" expanded="false" />
-                <element signature="e#5008#5221#0" expanded="false" />
-                <element signature="e#5251#5282#0" expanded="false" />
-                <element signature="e#5312#5343#0" expanded="false" />
-                <element signature="e#5385#5405#0" expanded="false" />
-                <element signature="e#5437#5509#0" expanded="false" />
-                <element signature="e#5538#5582#0" expanded="false" />
-                <element signature="e#5627#5671#0" expanded="false" />
-                <element signature="e#5706#5755#0" expanded="false" />
-                <element signature="e#6010#6059#0" expanded="false" />
-                <element signature="e#6083#6127#0" expanded="false" />
-                <element signature="e#6151#6202#0" expanded="false" />
-                <element signature="e#6220#6269#0" expanded="false" />
-                <element signature="e#6295#6315#0" expanded="false" />
-                <element signature="e#6333#6469#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="201" column="22" selection-start="3571" selection-end="3571" vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="6783">
               <folding />
             </state>
           </provider>
@@ -117,7 +94,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="24" column="33" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -126,7 +103,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="14" column="39" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -145,12 +122,15 @@
         <option value="$PROJECT_DIR$/myproject/templates/new_template.jinja2" />
         <option value="$PROJECT_DIR$/myproject/templates/template2.jinja2" />
         <option value="$PROJECT_DIR$/myproject/templates/index.jinja2" />
-        <option value="$PROJECT_DIR$/myproject/static/style.css" />
-        <option value="$PROJECT_DIR$/myproject/views.py" />
-        <option value="$PROJECT_DIR$/myproject/__init__.py" />
         <option value="$PROJECT_DIR$/myproject/templates/home.jinja2" />
         <option value="$PROJECT_DIR$/myproject/templates/regist.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/templates/about.jinja2" />
         <option value="$PROJECT_DIR$/myproject/templates/search.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/static/style.css" />
+        <option value="$PROJECT_DIR$/myproject/templates/my_trees.jinja2" />
+        <option value="$PROJECT_DIR$/myproject/__init__.py" />
+        <option value="$PROJECT_DIR$/myproject/views.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/profile.jinja2" />
       </list>
     </option>
   </component>
@@ -184,7 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,26 +214,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +224,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager" selected="Pyramid server.MyProject">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -547,25 +514,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myproject/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="65" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/development.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="18" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
@@ -581,61 +529,13 @@
     <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="332" column="18" selection-start="6397" selection-end="6397" vertical-scroll-proportion="0.0" vertical-offset="5644" max-vertical-offset="6783">
-          <folding>
-            <element signature="e#24#204#0" expanded="false" />
-            <element signature="e#211#341#0" expanded="false" />
-            <element signature="e#358#458#0" expanded="false" />
-            <element signature="e#480#667#0" expanded="false" />
-            <element signature="e#694#732#0" expanded="false" />
-            <element signature="e#756#800#0" expanded="false" />
-            <element signature="e#847#891#0" expanded="false" />
-            <element signature="e#916#1006#0" expanded="false" />
-            <element signature="e#1037#1100#0" expanded="false" />
-            <element signature="e#1135#1171#0" expanded="false" />
-            <element signature="e#1190#1274#0" expanded="false" />
-            <element signature="e#1295#1512#0" expanded="false" />
-            <element signature="e#1532#1705#0" expanded="false" />
-            <element signature="e#1726#1747#0" expanded="false" />
-            <element signature="e#1783#1956#0" expanded="false" />
-            <element signature="e#2019#2297#0" expanded="false" />
-            <element signature="e#2325#2603#0" expanded="false" />
-            <element signature="e#2625#2701#0" expanded="false" />
-            <element signature="e#2731#2981#0" expanded="false" />
-            <element signature="e#3011#3132#0" expanded="false" />
-            <element signature="e#3162#3284#0" expanded="false" />
-            <element signature="e#3313#3456#0" expanded="false" />
-            <element signature="e#3501#3644#0" expanded="false" />
-            <element signature="e#3679#3822#0" expanded="false" />
-            <element signature="e#3854#3886#0" expanded="false" />
-            <element signature="e#4430#4542#0" expanded="false" />
-            <element signature="e#4569#4681#0" expanded="false" />
-            <element signature="e#4708#4820#0" expanded="false" />
-            <element signature="e#4846#4866#0" expanded="false" />
-            <element signature="e#4893#4922#0" expanded="false" />
-            <element signature="e#4930#5003#0" expanded="false" />
-            <element signature="e#5008#5221#0" expanded="false" />
-            <element signature="e#5251#5282#0" expanded="false" />
-            <element signature="e#5312#5343#0" expanded="false" />
-            <element signature="e#5385#5405#0" expanded="false" />
-            <element signature="e#5437#5509#0" expanded="false" />
-            <element signature="e#5538#5582#0" expanded="false" />
-            <element signature="e#5627#5671#0" expanded="false" />
-            <element signature="e#5706#5755#0" expanded="false" />
-            <element signature="e#6010#6059#0" expanded="false" />
-            <element signature="e#6083#6127#0" expanded="false" />
-            <element signature="e#6151#6202#0" expanded="false" />
-            <element signature="e#6220#6269#0" expanded="false" />
-            <element signature="e#6295#6315#0" expanded="false" />
-            <element signature="e#6333#6469#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
@@ -653,61 +553,13 @@
     <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="317" column="24" selection-start="6055" selection-end="6055" vertical-scroll-proportion="0.0" vertical-offset="5051" max-vertical-offset="6766">
-          <folding>
-            <element signature="e#24#204#0" expanded="false" />
-            <element signature="e#211#341#0" expanded="false" />
-            <element signature="e#358#458#0" expanded="false" />
-            <element signature="e#480#667#0" expanded="false" />
-            <element signature="e#694#732#0" expanded="false" />
-            <element signature="e#756#800#0" expanded="false" />
-            <element signature="e#847#891#0" expanded="false" />
-            <element signature="e#916#1006#0" expanded="false" />
-            <element signature="e#1037#1100#0" expanded="false" />
-            <element signature="e#1135#1171#0" expanded="false" />
-            <element signature="e#1190#1274#0" expanded="false" />
-            <element signature="e#1295#1512#0" expanded="false" />
-            <element signature="e#1532#1705#0" expanded="false" />
-            <element signature="e#1726#1747#0" expanded="false" />
-            <element signature="e#1783#1956#0" expanded="false" />
-            <element signature="e#2019#2297#0" expanded="false" />
-            <element signature="e#2325#2603#0" expanded="false" />
-            <element signature="e#2625#2701#0" expanded="false" />
-            <element signature="e#2731#2981#0" expanded="false" />
-            <element signature="e#3011#3132#0" expanded="false" />
-            <element signature="e#3162#3284#0" expanded="false" />
-            <element signature="e#3313#3456#0" expanded="false" />
-            <element signature="e#3501#3644#0" expanded="false" />
-            <element signature="e#3679#3822#0" expanded="false" />
-            <element signature="e#3854#3886#0" expanded="false" />
-            <element signature="e#4430#4542#0" expanded="false" />
-            <element signature="e#4569#4681#0" expanded="false" />
-            <element signature="e#4708#4820#0" expanded="false" />
-            <element signature="e#4846#4866#0" expanded="false" />
-            <element signature="e#4893#4922#0" expanded="false" />
-            <element signature="e#4930#5003#0" expanded="false" />
-            <element signature="e#5008#5221#0" expanded="false" />
-            <element signature="e#5251#5282#0" expanded="false" />
-            <element signature="e#5312#5343#0" expanded="false" />
-            <element signature="e#5385#5405#0" expanded="false" />
-            <element signature="e#5437#5509#0" expanded="false" />
-            <element signature="e#5538#5582#0" expanded="false" />
-            <element signature="e#5627#5671#0" expanded="false" />
-            <element signature="e#5706#5755#0" expanded="false" />
-            <element signature="e#6010#6059#0" expanded="false" />
-            <element signature="e#6083#6127#0" expanded="false" />
-            <element signature="e#6151#6202#0" expanded="false" />
-            <element signature="e#6220#6269#0" expanded="false" />
-            <element signature="e#6295#6315#0" expanded="false" />
-            <element signature="e#6333#6469#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pserve-script.py">
@@ -749,9 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pserve-script.py">
@@ -788,9 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="13" column="34" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
@@ -822,9 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/views.py">
@@ -883,109 +729,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/new_template.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="66" selection-start="741" selection-end="741" vertical-scroll-proportion="0.21480145" vertical-offset="51" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="10" column="66" selection-start="741" selection-end="741" vertical-scroll-proportion="0.21480145" vertical-offset="51" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/template2.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="144" selection-end="157" vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="567">
+        <state line="6" column="17" selection-start="144" selection-end="157" vertical-scroll-proportion="0.17989418" vertical-offset="0" max-vertical-offset="567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="298" selection-end="298" vertical-scroll-proportion="0.34401348" vertical-offset="0" max-vertical-offset="593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/about.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+          <folding>
+            <marker date="1397790376708" expanded="true" signature="317:525" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="3026">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="21" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="2516">
-          <folding>
-            <element signature="e#24#204#0" expanded="false" />
-            <element signature="e#211#341#0" expanded="false" />
-            <element signature="e#358#458#0" expanded="false" />
-            <element signature="e#480#667#0" expanded="false" />
-            <element signature="e#694#732#0" expanded="false" />
-            <element signature="e#756#800#0" expanded="false" />
-            <element signature="e#847#891#0" expanded="false" />
-            <element signature="e#916#1006#0" expanded="false" />
-            <element signature="e#1037#1100#0" expanded="false" />
-            <element signature="e#1135#1171#0" expanded="false" />
-            <element signature="e#1190#1274#0" expanded="false" />
-            <element signature="e#1295#1512#0" expanded="false" />
-            <element signature="e#1532#1705#0" expanded="false" />
-            <element signature="e#1726#1747#0" expanded="false" />
-            <element signature="e#1783#1956#0" expanded="false" />
-            <element signature="e#2019#2297#0" expanded="false" />
-            <element signature="e#2325#2603#0" expanded="false" />
-            <element signature="e#2625#2701#0" expanded="false" />
-            <element signature="e#2731#2981#0" expanded="false" />
-            <element signature="e#3011#3132#0" expanded="false" />
-            <element signature="e#3162#3284#0" expanded="false" />
-            <element signature="e#3313#3456#0" expanded="false" />
-            <element signature="e#3501#3644#0" expanded="false" />
-            <element signature="e#3679#3822#0" expanded="false" />
-            <element signature="e#3854#3886#0" expanded="false" />
-            <element signature="e#4430#4542#0" expanded="false" />
-            <element signature="e#4569#4681#0" expanded="false" />
-            <element signature="e#4708#4820#0" expanded="false" />
-            <element signature="e#4846#4866#0" expanded="false" />
-            <element signature="e#4893#4922#0" expanded="false" />
-            <element signature="e#4930#5003#0" expanded="false" />
-            <element signature="e#5008#5221#0" expanded="false" />
-            <element signature="e#5251#5282#0" expanded="false" />
-            <element signature="e#5312#5343#0" expanded="false" />
-            <element signature="e#5385#5405#0" expanded="false" />
-            <element signature="e#5437#5509#0" expanded="false" />
-            <element signature="e#5538#5582#0" expanded="false" />
-            <element signature="e#5627#5671#0" expanded="false" />
-            <element signature="e#5706#5755#0" expanded="false" />
-            <element signature="e#6010#6059#0" expanded="false" />
-            <element signature="e#6083#6127#0" expanded="false" />
-            <element signature="e#6151#6202#0" expanded="false" />
-            <element signature="e#6220#6269#0" expanded="false" />
-            <element signature="e#6295#6315#0" expanded="false" />
-            <element signature="e#6333#6469#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="731" selection-end="737" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="762" selection-end="762" vertical-scroll-proportion="-6.5384617" vertical-offset="306" max-vertical-offset="2890">
+        <state line="201" column="22" selection-start="3571" selection-end="3571" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="5967">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/search.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="974" selection-end="974" vertical-scroll-proportion="0.659612" vertical-offset="153" max-vertical-offset="1105">
+        <state line="15" column="53" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="959" selection-end="959" vertical-scroll-proportion="-7.8461537" vertical-offset="255" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/profile.jinja2">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="-8.84" vertical-offset="51" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/my_trees.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="328" selection-end="328" vertical-scroll-proportion="0.22045855" vertical-offset="62" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
