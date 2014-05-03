@@ -1,13 +1,55 @@
 #-*- coding: utf-8 -*-
-from pyramid.view import view_config
+from pyramid.view import view_config, forbidden_view_config
+from pyramid.security import remember, authenticated_userid, forget
+from pyramid.httpexceptions import HTTPFound, HTTPForbidden
+from myproject.models import register, login
+
+
+@forbidden_view_config()
+def forbidden_view(request):
+    # do not allow a user to login if they are already logged in
+    if authenticated_userid(request):
+        return HTTPForbidden()
+    loc = request.route_url('login', _query=(('next', request.path),))
+    return HTTPFound(location=loc)
 
 @view_config(route_name='home', renderer='templates/home.jinja2')
 def my_view_home(request):
-    return {'project': 'MyProject'}
+    #nxt = request.params.get('next') or request.route_url('home')
+    did_fail = False
+    if 'login' in request.POST:
+        #LOGIN PROCESSING
+        user = login(request.POST["email"], request.POST["password"])
+        if user:
+            headers = remember(request, user.id)
+            #return HTTPFound(location=nxt, headers=headers)
+        else:
+            did_fail = True
+    return {
+        'login': "",
+        #'next': nxt,
+        'failed_attempt': did_fail,
+    }
 
 @view_config(route_name='registration', renderer='templates/regist.jinja2')
 def my_view(request):
-    return {'project': 'MyProject'}
+    nxt = request.params.get('next') or request.route_url('about')
+    did_fail = False
+    if 'email' in request.POST:
+        user = register(
+            request.POST["login"], request.POST["e-mail"],
+            request.POST["password"]
+        )
+        if user:
+            headers = remember(request, user.id)
+            return HTTPFound(location=nxt, headers=headers)
+        else:
+            did_fail = True
+    return {
+        'login': "",
+        'next': nxt,
+        'failed_attempt': did_fail,
+    }
 
 @view_config(route_name='search', renderer='templates/search.jinja2')
 def my_view_search(request):
