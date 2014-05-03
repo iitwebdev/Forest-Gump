@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 from pyramid.view import view_config
 
 @view_config(route_name='home', renderer='templates/home.jinja2')
@@ -23,3 +24,10 @@ def my_view_about(request):
 @view_config(route_name='trees', renderer='templates/my_trees.jinja2')
 def my_view_trees(request):
     return {'project': 'MyProject'}
+
+@view_config(route_name='add', renderer='templates/add_tree.jinja2')
+def my_view_add_tree(request):
+    data = {
+        'relations': ["Mother", "Son", "Sister", "Uncle", "Grandmother"]
+    }
+    return data

@@ -1,6 +1,6 @@
 @charset "utf-8";
 #wrap {
-	background-image: url(content.png);
+	background-image: url(images/content.png);
 	background-repeat: repeat-y;
 	width: 980px;
 	margin-top: 0px;
@@ -19,7 +19,7 @@ body {
 }
 
 #wrap #header {
-	background-image: url(header.png);
+	background-image: url(images/header.png);
 	background-repeat: no-repeat;
 	height: 309px;
 	margin: 0px;
@@ -70,7 +70,7 @@ body {
 }
 
 #wrap #mainmenu {
-	background-image: url(menu.png);
+	background-image: url(images/menu.png);
 	background-repeat: no-repeat;
 	height: 104px;
 }
@@ -126,7 +126,7 @@ body {
 	color: #996600;
 	text-decoration: none;
 	margin-right: 10px;
-	background-image: url(menuhvr.png);
+	background-image: url(images/menuhvr.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
@@ -141,7 +141,7 @@ body {
 	color: #CC6600;
 	text-decoration: none;
 	margin-right: 10px;
-	background-image: url(menuhvr.png);
+	background-image: url(images/menuhvr.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
@@ -264,7 +264,7 @@ body {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
-	color: #999900;
+    color: #AA6600;
 }
 
 #wrap #contents #left h3 {

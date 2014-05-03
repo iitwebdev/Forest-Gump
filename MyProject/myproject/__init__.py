@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 from pyramid.config import Configurator
 
 
@@ -11,7 +12,8 @@ def main(global_config, **settings):
     config.add_route('registration', '/registration')
     config.add_route('search', '/search')
     config.add_route('profile', '/profile')
-    config.add_route('trees', '/profile/trees')
+    config.add_route('trees', '/trees')
     config.add_route('about', '/about')
+    config.add_route('add', '/add')
     config.scan()
     return config.make_wsgi_app()
