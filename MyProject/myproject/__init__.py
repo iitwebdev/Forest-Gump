@@ -1,10 +1,17 @@
 #-*- coding: utf-8 -*-
 from pyramid.config import Configurator
-
+from sqlalchemy import create_engine
+from pyramid.httpexceptions import HTTPNotFound
+from sqlalchemy.pool import NullPool
+from .models import (
+    DBSession,
+    Base,
+    )
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
+
     config = Configurator(settings=settings)
     config.include('pyramid_jinja2')
     config.add_static_view('static', 'static', cache_max_age=3600)

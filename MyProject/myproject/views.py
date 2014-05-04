@@ -2,7 +2,7 @@
 from pyramid.view import view_config, forbidden_view_config
 from pyramid.security import remember, authenticated_userid, forget
 from pyramid.httpexceptions import HTTPFound, HTTPForbidden
-from myproject.models import register, login
+from myproject.models import register, login, add_guy, all_guys, add_guys_relation
 
 
 @forbidden_view_config()
@@ -15,27 +15,27 @@ def forbidden_view(request):
 
 @view_config(route_name='home', renderer='templates/home.jinja2')
 def my_view_home(request):
-    #nxt = request.params.get('next') or request.route_url('home')
+    nxt = request.params.get('next') or request.route_url('profile')
     did_fail = False
-    if 'login' in request.POST:
-        #LOGIN PROCESSING
+    if 'email' in request.POST:
         user = login(request.POST["email"], request.POST["password"])
         if user:
             headers = remember(request, user.id)
-            #return HTTPFound(location=nxt, headers=headers)
+            return HTTPFound(location=nxt, headers=headers)
         else:
             did_fail = True
     return {
-        'login': "",
-        #'next': nxt,
+        'email': "",
+        'next': nxt,
         'failed_attempt': did_fail,
     }
 
 @view_config(route_name='registration', renderer='templates/regist.jinja2')
 def my_view(request):
-    nxt = request.params.get('next') or request.route_url('about')
+    nxt = request.params.get('next') or request.route_url('profile')
     did_fail = False
-    if 'email' in request.POST:
+
+    if 'e-mail' in request.POST:
         user = register(
             request.POST["login"], request.POST["e-mail"],
             request.POST["password"]
@@ -69,7 +69,23 @@ def my_view_trees(request):
 
 @view_config(route_name='add', renderer='templates/add_tree.jinja2')
 def my_view_add_tree(request):
-    data = {
-        'relations': ["Mother", "Son", "Sister", "Uncle", "Grandmother"]
+    did_fail = False
+    guys = all_guys()
+    if 'surname' in request.POST:
+        guy = add_guy(
+            request.POST["surname"], request.POST["name"],
+            request.POST["middle_name"]
+        )
+        if guy:
+            guys = all_guys()
+            headers = remember(request, guy.id)
+            #return HTTPFound(headers=headers)
+        else:
+            did_fail = True
+    if 'people1' in request.POST:
+        rel = add_guys_relation(request.POST["people1"], request.POST["people2"], request.POST["relations"])
+    return {
+        'failed_attempt': did_fail,
+        'relations': ["Mother", "Son", "Sister", "Uncle", "Grandmother"],
+        'guys': guys
     }
-    return data

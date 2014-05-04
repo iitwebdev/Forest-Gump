@@ -12,9 +12,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MyProject$bd_test.coverage" NAME="bd_test Coverage Results" MODIFIED="1399109220515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
-    <SUITE FILE_PATH="coverage/MyProject$bd2.coverage" NAME="bd2 Coverage Results" MODIFIED="1399111836500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
+    <SUITE FILE_PATH="coverage/MyProject$bd_test.coverage" NAME="bd_test Coverage Results" MODIFIED="1399122783457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
+    <SUITE FILE_PATH="coverage/MyProject$bd2.coverage" NAME="bd2 Coverage Results" MODIFIED="1399120986906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
     <SUITE FILE_PATH="coverage/MyProject$MyProject.coverage" NAME="MyProject Coverage Results" MODIFIED="1399105629419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyProject$models.coverage" NAME="models Coverage Results" MODIFIED="1399127354288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
+    <SUITE FILE_PATH="coverage/MyProject$bd_tset.coverage" NAME="bd_tset Coverage Results" MODIFIED="1399194246205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyProject$views.coverage" NAME="views Coverage Results" MODIFIED="1399106792814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -29,48 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search.jinja2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/search.jinja2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="542" selection-end="542" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jinja2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="37" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-6.3846154" vertical-offset="446" max-vertical-offset="1258">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_tree.jinja2" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/add_tree.jinja2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="57" selection-start="2432" selection-end="2432" vertical-scroll-proportion="-41.846153" vertical-offset="0" max-vertical-offset="1581">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1105">
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="791" selection-end="791" vertical-scroll-proportion="0.6827309" vertical-offset="0" max-vertical-offset="1360">
+            <state line="85" column="8" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1632">
               <folding>
                 <element signature="e#23#82#0" expanded="true" />
               </folding>
@@ -78,10 +42,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myproject/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="9" selection-start="4674" selection-end="4674" vertical-scroll-proportion="0.6061776" vertical-offset="1964" max-vertical-offset="3451">
+              <folding>
+                <element signature="e#15#61#0" expanded="true" />
+                <element signature="e#1292#1394#0" expanded="false" />
+                <element signature="e#1501#1517#0" expanded="false" />
+                <element signature="e#1571#1589#0" expanded="false" />
+                <element signature="e#1637#1700#0" expanded="false" />
+                <element signature="e#1762#2097#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_tree.jinja2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/add_tree.jinja2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="54" selection-start="2434" selection-end="2434" vertical-scroll-proportion="-15.115385" vertical-offset="780" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="regist.jinja2" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="17" selection-start="1838" selection-end="2013" vertical-scroll-proportion="-14.384615" vertical-offset="782" max-vertical-offset="3043">
+            <state line="42" column="17" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-3.9230769" vertical-offset="612" max-vertical-offset="3043">
               <folding />
             </state>
           </provider>
@@ -104,19 +93,21 @@
         <option value="$PROJECT_DIR$/myproject/templates/my_trees.jinja2" />
         <option value="$PROJECT_DIR$/myproject/templates/search.jinja2" />
         <option value="$PROJECT_DIR$/myproject/tests.py" />
-        <option value="$PROJECT_DIR$/myproject/templates/add_tree.jinja2" />
         <option value="$PROJECT_DIR$/myproject/static/javascript/table_creating.js" />
         <option value="$PROJECT_DIR$/myproject/static/style.css" />
         <option value="$PROJECT_DIR$/myproject/templates/profile.jinja2" />
-        <option value="$PROJECT_DIR$/pserve-script.py" />
-        <option value="$PROJECT_DIR$/myproject/__init__.py" />
-        <option value="$PROJECT_DIR$/myproject/bd2.py" />
         <option value="$PROJECT_DIR$/myproject/templates/regist.jinja2" />
         <option value="$PROJECT_DIR$/myproject/login.py" />
-        <option value="$PROJECT_DIR$/myproject/bd_test.py" />
         <option value="$PROJECT_DIR$/myproject/templates/home.jinja2" />
-        <option value="$PROJECT_DIR$/myproject/models.py" />
+        <option value="$PROJECT_DIR$/pserve-script.py" />
+        <option value="$PROJECT_DIR$/sqlalchemy/orm/session.py" />
+        <option value="$PROJECT_DIR$/myproject/__init__.py" />
+        <option value="$PROJECT_DIR$/myproject/bd_test.py" />
+        <option value="$PROJECT_DIR$/myproject/bd2.py" />
+        <option value="$PROJECT_DIR$/bd_tset.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/add_tree.jinja2" />
         <option value="$PROJECT_DIR$/myproject/views.py" />
+        <option value="$PROJECT_DIR$/myproject/models.py" />
       </list>
     </option>
   </component>
@@ -150,6 +141,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,7 +156,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject" />
+              <option name="myItemId" value="MyProjectNew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -174,7 +166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject" />
+              <option name="myItemId" value="MyProjectNew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -188,7 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyProject" />
+              <option name="myItemId" value="MyProjectNew" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -202,7 +194,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +222,7 @@
       <recent name="D:\env\Scripts\MyProject\myproject\static\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bd2">
+  <component name="RunManager" selected="Python.bd_tset">
     <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +248,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:/Puthon27/python.exe" />
+      <option name="SDK_HOME" value="E:/Python27/python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -276,7 +267,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:/Puthon27/python.exe" />
+      <option name="SDK_HOME" value="E:/Python27/python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -284,6 +275,44 @@
       <module name="MyProject" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/bd2.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/models.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bd_tset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyProject" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\env\Scripts\MyProject\bd_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -392,6 +421,9 @@
       <option name="CONFIGURATION_FILE" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,9 +445,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -502,18 +531,22 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Pyramid server.MyProject" />
-      <item index="1" class="java.lang.String" itemvalue="Python.views" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bd_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bd2" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Tests in setup.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Tests in setup.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bd_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bd2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.models" />
+      <item index="6" class="java.lang.String" itemvalue="Python.bd_tset" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.bd2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bd_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.bd_tset" />
+        <item index="1" class="java.lang.String" itemvalue="Python.models" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bd_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bd2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -545,26 +578,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1359" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.087248325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25441968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28055343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12080537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -582,9 +615,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29208302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5385906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -601,9 +634,32 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="57" selection-start="1300" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="63" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="17" selection-start="1838" selection-end="2013" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/mytemplate.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1394" />
@@ -617,7 +673,9 @@
     <entry file="file://$PROJECT_DIR$/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
+          <folding>
+            <element signature="e#23#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -659,7 +717,9 @@
     <entry file="file://$PROJECT_DIR$/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="61" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
-          <folding />
+          <folding>
+            <element signature="e#23#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +771,9 @@
     <entry file="file://$PROJECT_DIR$/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="204">
-          <folding />
+          <folding>
+            <element signature="e#23#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,101 +829,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/my_trees.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2312">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/static/ie6.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="280" selection-end="280" vertical-scroll-proportion="0.41754386" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="e#24#39#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/static/javascript/table_creating.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="325" selection-end="325" vertical-scroll-proportion="0.34304932" vertical-offset="0" max-vertical-offset="446">
-          <folding />
-        </state>
+        <state line="9" column="1" selection-start="325" selection-end="325" vertical-scroll-proportion="0.34304932" vertical-offset="0" max-vertical-offset="446" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="33" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.0" vertical-offset="6284" max-vertical-offset="6783">
-          <folding />
-        </state>
+        <state line="129" column="33" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.0" vertical-offset="6284" max-vertical-offset="6783" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/development.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="20" selection-start="899" selection-end="899" vertical-scroll-proportion="1.4912281" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pserve-script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.46575344" vertical-offset="0" max-vertical-offset="365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="212" selection-end="212" vertical-scroll-proportion="0.3260274" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="17" selection-start="1838" selection-end="2013" vertical-scroll-proportion="-14.384615" vertical-offset="782" max-vertical-offset="3043">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/bd2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="151" selection-end="151" vertical-scroll-proportion="0.13654618" vertical-offset="0" max-vertical-offset="498">
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1105">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/bd_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.13654618" vertical-offset="0" max-vertical-offset="1309">
-          <folding>
-            <element signature="e#0#55#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/add_tree.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="57" selection-start="2432" selection-end="2432" vertical-scroll-proportion="-41.846153" vertical-offset="0" max-vertical-offset="1581">
-          <folding />
-        </state>
+        <state line="50" column="20" selection-start="899" selection-end="899" vertical-scroll-proportion="1.4912281" vertical-offset="0" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/profile.jinja2">
@@ -869,30 +857,87 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="88" selection-start="2007" selection-end="2007" vertical-scroll-proportion="-2.2621565" vertical-offset="2141" max-vertical-offset="2686">
-          <folding />
-        </state>
+        <state line="63" column="88" selection-start="2007" selection-end="2007" vertical-scroll-proportion="-2.2621565" vertical-offset="2141" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/search.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="542" selection-end="542" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="952">
+        <state line="20" column="21" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pserve-script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.18952063" vertical-offset="0" max-vertical-offset="897" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2270" column="42" selection-start="90071" selection-end="90071" vertical-scroll-proportion="50.59829" vertical-offset="8735" max-vertical-offset="40766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="63" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/home.jinja2">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-6.3846154" vertical-offset="446" max-vertical-offset="1258">
+        <state line="38" column="36" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.3752345" vertical-offset="446" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="280" selection-end="280" vertical-scroll-proportion="0.38636363" vertical-offset="0" max-vertical-offset="572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/regist.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="17" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-3.9230769" vertical-offset="612" max-vertical-offset="3043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/add_tree.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="54" selection-start="2434" selection-end="2434" vertical-scroll-proportion="-15.115385" vertical-offset="780" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="791" selection-end="791" vertical-scroll-proportion="0.6827309" vertical-offset="0" max-vertical-offset="1360">
+        <state line="85" column="8" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1632">
           <folding>
             <element signature="e#23#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bd_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="9" selection-start="4674" selection-end="4674" vertical-scroll-proportion="0.6061776" vertical-offset="1964" max-vertical-offset="3451">
+          <folding>
+            <element signature="e#15#61#0" expanded="true" />
+            <element signature="e#1292#1394#0" expanded="false" />
+            <element signature="e#1501#1517#0" expanded="false" />
+            <element signature="e#1571#1589#0" expanded="false" />
+            <element signature="e#1637#1700#0" expanded="false" />
+            <element signature="e#1762#2097#0" expanded="false" />
           </folding>
         </state>
       </provider>

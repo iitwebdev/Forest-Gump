@@ -2268,7 +2268,7 @@ class sessionmaker(_SessionClassMethods):
         Session = sessionmaker()
 
         # ... later
-        engine = create_engine('sqlite:///foo.db')
+        engine = create_engine('sqlite:///oo.db')
         Session.configure(bind=engine)
 
         sess = Session()
