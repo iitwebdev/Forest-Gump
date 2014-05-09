@@ -79,6 +79,17 @@
         </form>
         <div id="relation_table">
             <table>
+                {% for key in dict_relations %}
+                    <tr><td align="center">
+                        {{ dict_relations[key][0] }}
+                    </td>
+                    <td align="center">
+                        {{ dict_relations[key][1]}}
+                    </td>
+                    <td align="center">
+                        {{ key }}
+                    </td></tr>
+                {% endfor %}
             </table>
         </div>
     </p>

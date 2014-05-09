@@ -187,8 +187,12 @@ def all_guys():
 
 def all_rels():
     session = DBSession()
+    relations = {}
     for rel in session.query(GuysRelations):
-        print(rel.id)
+        guy1 = session.query(Test_guys).filter_by(id=rel.guy1_id).first()
+        guy2 = session.query(Test_guys).filter_by(id=rel.guy2_id).first()
+        relations[rel.relation] = [guy1.name, guy2.name]
+    return relations
 
 
 def del_all():
@@ -202,7 +206,6 @@ def del_user(user):
     session = DBSession()
     try:
         user1 = session.query(User).filter_by(name=user).first()
-        #print user1
         session.delete(user1)
         session.commit()
     except Exception:

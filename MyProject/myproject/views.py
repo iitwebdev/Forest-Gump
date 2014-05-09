@@ -2,7 +2,7 @@
 from pyramid.view import view_config, forbidden_view_config
 from pyramid.security import remember, authenticated_userid, forget
 from pyramid.httpexceptions import HTTPFound, HTTPForbidden
-from myproject.models import register, login, add_guy, all_guys, add_guys_relation
+from myproject.models import register, login, add_guy, all_guys, add_guys_relation, all_rels
 
 
 @forbidden_view_config()
@@ -84,8 +84,10 @@ def my_view_add_tree(request):
             did_fail = True
     if 'people1' in request.POST:
         rel = add_guys_relation(request.POST["people1"], request.POST["people2"], request.POST["relations"])
+    relations = all_rels()
     return {
         'failed_attempt': did_fail,
         'relations': ["Mother", "Son", "Sister", "Uncle", "Grandmother"],
-        'guys': guys
+        'guys': guys,
+        'dict_relations': relations
     }
