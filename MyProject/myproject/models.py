@@ -5,7 +5,7 @@ import smtplib
 from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, String, Integer, PickleType
+from sqlalchemy import Column, String, Integer, Boolean
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm import (
@@ -19,6 +19,10 @@ import random
 import string  # pylint: disable=W0402
 import socket
 from sqlalchemy import create_engine
+from pyramid.security import (
+    Allow,
+    Everyone,
+    )
 
 Base = declarative_base()
 DBSession = scoped_session(sessionmaker(), scopefunc=get_current_request)
@@ -38,6 +42,7 @@ class User(Base):
 
     name = Column(String(255))
     email = Column(String(50))
+    sex = Column(String(10))
     #_salt = Column("salt", String(32))
     #hpass = Column(String(32))
 
@@ -78,9 +83,11 @@ class User(Base):
 class Test_guys(Base):
     __tablename__ = "guys"
     id = Column(Integer, primary_key=True)
-    #surname = Column(String(50))
+    surname = Column(String(50))
     name = Column(String(50))
-    #middle_name = Column(String(50))
+    middle_name = Column(String(50))
+    birth = Column(Integer)
+    end = Column(Integer)
 
 
 class GuysRelations(Base):
@@ -96,18 +103,18 @@ class GuysRelations(Base):
         return str(self.guy1_id) + " " + str(self.guy2_id) + " " + str(self.relation)
 
 
-def register(name, email, password):
+def register(name, email, password, sex):
+    Base.metadata.create_all(engine)
     if name and email and password:
         session = DBSession()
         query = session.query(User).filter(User.email == email)
-        all_users()
         try:
             user = query.one()
             #raise EmailExistError(u'Такой почтовый ящик уже существует')
             return False
         except NoResultFound:
             # Создаем нового пользователя
-            user = User(name=name, email=email)
+            user = User(name=name, email=email, sex=sex)
             #send_email(email, password, 1)
             user.password = password
             session.add(user)
@@ -117,7 +124,8 @@ def register(name, email, password):
         return False
 
 
-def add_guy(guy_surname, guy_name, guy_middle_name):
+def add_guy(guy_surname, guy_name, guy_middle_name, birth, end):
+    Base.metadata.create_all(engine)
     if guy_surname and guy_name and guy_middle_name:
         session = DBSession()
         # query = session.query(Test_guys).filter(Test_guys.name == guy_name)
@@ -126,7 +134,7 @@ def add_guy(guy_surname, guy_name, guy_middle_name):
         #     #raise EmailExistError(u'Такой почтовый ящик уже существует')
         #     return False
         # except NoResultFound:
-        guy = Test_guys(name=guy_name)
+        guy = Test_guys(name=guy_name, surname=guy_surname, middle_name=guy_middle_name, birth=birth, end=end)
         session.add(guy)
         session.commit()
         return guy
@@ -173,12 +181,14 @@ def login(email, password):
 def all_users():
     session = DBSession()
     for user in session.query(User):
-        print(user.name, user.email)
+        print(user.id, user.name, user.email)
 
 
 def all_guys():
     session = DBSession()
     guys = []
+    if Test_guys not in Base.metadata.tables:
+        return []
     for guy in session.query(Test_guys):
         #str_guy = guy.surname + " " + guy.name + " " + guy.middle_name
         guys.append(guy.name)
@@ -217,3 +227,9 @@ def del_guy(user):
     guy = session.query(Test_guys).filter_by(name=user).first()
     session.delete(guy)
     session.commit()
+
+
+def get_user(id_, request):
+    print(id_)
+    session = DBSession()
+    return session.query(User).get(id_)

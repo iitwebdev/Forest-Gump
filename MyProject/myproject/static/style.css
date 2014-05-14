@@ -386,6 +386,27 @@ table button{
 	margin: 0px;
 }
 
+.square1{
+    text-align: "center";
+    background-color: #D5D3B8;
+	color: #993300;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 260px;
+    top: 0;
+}
+
+.square2{
+    background-color: #D5D3B8;
+	color: #993300;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 190px;
+    top: 60px;
+}
+
 /*.seo {
 	font-size: 11px;
 	display: block;

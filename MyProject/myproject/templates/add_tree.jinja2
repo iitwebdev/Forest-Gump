@@ -77,6 +77,9 @@
                 <input type="submit" name="submit_relations" value="Добавить связь"></td></tr>
             </table>
         </form>
+    </p>
+    <h2>Ваши связи</h2>
+    <p>
         <div id="relation_table">
             <table>
                 {% for key in dict_relations %}
@@ -91,6 +94,14 @@
                     </td></tr>
                 {% endfor %}
             </table>
+        </div>
+        <div id="gen_tree">
+            {% for key in dict_relations %}
+                <div style = "align: center; background: #D5D3B8; color: #993300;height: 60px;width: 60px;
+                position: relative; left: 260px; top: 0;">{{ dict_relations[key][0] }}</div>
+                <div style = "align: center; background: #D5D3B8; color: #993300;height: 60px;width: 60px;
+                position: relative; left: 190px; top: 60;">{{ dict_relations[key][1] }}</div>
+            {% endfor %}
         </div>
     </p>
 {% endblock %}
