@@ -1,17 +1,14 @@
 #-*- coding: utf-8 -*-
 from pyramid.authentication import SessionAuthenticationPolicy
 from pyramid.config import Configurator
-from sqlalchemy import create_engine
 from pyramid.httpexceptions import HTTPNotFound
-from sqlalchemy.pool import NullPool
-from .models import (
-    DBSession,
-    Base,
-    )
 from pyramid.authentication import AuthTktAuthenticationPolicy
 from pyramid.authorization import ACLAuthorizationPolicy
+
+from sqlalchemy.pool import NullPool
+from sqlalchemy import create_engine
+
 from myproject.models import get_user
-#from .security import groupfinder
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
