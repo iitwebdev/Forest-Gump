@@ -5,7 +5,7 @@ import smtplib
 from sqlalchemy import ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, String, Integer, Boolean
+from sqlalchemy import Column, String, Integer, PickleType
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm import (
@@ -19,10 +19,6 @@ import random
 import string  # pylint: disable=W0402
 import socket
 from sqlalchemy import create_engine
-from pyramid.security import (
-    Allow,
-    Everyone,
-    )
 
 Base = declarative_base()
 DBSession = scoped_session(sessionmaker(), scopefunc=get_current_request)
@@ -33,8 +29,6 @@ Base.metadata.create_all(engine)
 
 
 class User(Base):
-    """ User class for keeping employee info & credentials """
-
     __tablename__ = "user"
     _password = None
 
@@ -88,6 +82,7 @@ class Test_guys(Base):
     middle_name = Column(String(50))
     birth = Column(Integer)
     end = Column(Integer)
+    bpl = Column(String(20))
 
 
 class GuysRelations(Base):
@@ -104,10 +99,10 @@ class GuysRelations(Base):
 
 
 def register(name, email, password, sex):
-    Base.metadata.create_all(engine)
     if name and email and password:
         session = DBSession()
         query = session.query(User).filter(User.email == email)
+        all_users()
         try:
             user = query.one()
             #raise EmailExistError(u'Такой почтовый ящик уже существует')
@@ -124,31 +119,32 @@ def register(name, email, password, sex):
         return False
 
 
-def add_guy(guy_surname, guy_name, guy_middle_name, birth, end):
+def add_guy(guy_surname, guy_name, guy_middle_name, birth, end, bpl):
     Base.metadata.create_all(engine)
     if guy_surname and guy_name and guy_middle_name:
         session = DBSession()
-        # query = session.query(Test_guys).filter(Test_guys.name == guy_name)
-        # try:
-        #     guy = query.first()
-        #     #raise EmailExistError(u'Такой почтовый ящик уже существует')
-        #     return False
-        # except NoResultFound:
-        guy = Test_guys(name=guy_name, surname=guy_surname, middle_name=guy_middle_name, birth=birth, end=end)
-        session.add(guy)
-        session.commit()
-        return guy
+        query = session.query(Test_guys).filter(Test_guys.name == guy_name)
+        try:
+            query.one()
+            #raise EmailExistError(u'Такой почтовый ящик уже существует')
+            return False
+        except NoResultFound:
+            guy = Test_guys(surname=guy_surname, name=guy_name, middle_name=guy_middle_name,
+                            birth=birth, end=end, bpl=bpl)
+            session.add(guy)
+            session.commit()
+            return guy
     else:
         return False
 
 
-def add_guys_relation(guy1_name, guy2_name, new_relation):
+def add_guys_relation(guy1_name, guy2,  new_relation):
     Base.metadata.create_all(engine)
-    if guy1_name and guy2_name and new_relation:
+    if guy1_name and guy2 and new_relation:
         print("Hiiiii!")
         session = DBSession()
         guy1 = session.query(Test_guys).filter(Test_guys.name == guy1_name).one()
-        guy2 = session.query(Test_guys).filter(Test_guys.name == guy2_name).one()
+        #guy2 = session.query(Test_guys).filter(Test_guys.name == guy2_name).one()
         # try:
         #     guy = query.first()
         #     #raise EmailExistError(u'Такой почтовый ящик уже существует')
@@ -157,8 +153,6 @@ def add_guys_relation(guy1_name, guy2_name, new_relation):
         rel = GuysRelations(guy1_id=guy1.id, guy2_id=guy2.id, relation=new_relation)
         session.add(rel)
         session.commit()
-        print(rel)
-        #print(guy1.guy_relations)
         return rel
     else:
         return False
@@ -166,7 +160,7 @@ def add_guys_relation(guy1_name, guy2_name, new_relation):
 
 def login(email, password):
     session = DBSession()
-    query = session.query(User).filter(User.email == email)
+    query = session.query(User).filter(User.email == email or User.name == email)
     try:
         user = query.one()
         return user
@@ -181,34 +175,41 @@ def login(email, password):
 def all_users():
     session = DBSession()
     for user in session.query(User):
-        print(user.id, user.name, user.email)
+        print(user.name, user.email)
 
 
 def all_guys():
     session = DBSession()
     guys = []
-    if Test_guys not in Base.metadata.tables:
-        return []
-    for guy in session.query(Test_guys):
-        #str_guy = guy.surname + " " + guy.name + " " + guy.middle_name
-        guys.append(guy.name)
+    try:
+        for guy in session.query(Test_guys):
+            guys.append(guy.name)
+    except:
+        guys = []
     return guys
 
 
 def all_rels():
     session = DBSession()
-    relations = {}
-    for rel in session.query(GuysRelations):
-        guy1 = session.query(Test_guys).filter_by(id=rel.guy1_id).first()
-        guy2 = session.query(Test_guys).filter_by(id=rel.guy2_id).first()
-        relations[rel.relation] = [guy1.name, guy2.name]
-    return relations
+    rs = {}
+    try:
+        for rel in session.query(GuysRelations):
+            person1 = session.query(GuysRelations).filter_by(id=rel.person1_id).one()
+            person2 = session.query(GuysRelations).filter_by(id=rel.person2_id).one()
+            rs[rel.relation] = [person1.name, person2.name]
+    except:
+        rs = {}
+    return rs
 
 
-def del_all():
-    session = DBSession
+def del_all_tables():
+    session = DBSession()
     for user in session.query(User):
         session.delete(user)
+    #for rs in session.query(GuysRelations):
+        #session.delete(rs)
+    for guy in session.query(Test_guys):
+        session.delete(guy)
     session.commit()
 
 
@@ -216,6 +217,7 @@ def del_user(user):
     session = DBSession()
     try:
         user1 = session.query(User).filter_by(name=user).first()
+        #print user1
         session.delete(user1)
         session.commit()
     except Exception:
@@ -230,6 +232,12 @@ def del_guy(user):
 
 
 def get_user(id_, request):
-    print(id_)
+    #request for autorization, don't delete
     session = DBSession()
-    return session.query(User).get(id_)
+    if not id_:
+        raise NoResultFound
+    u = session.query(User).get(id_)
+    if u:
+        return session.query(User).get(id_)
+    else:
+        raise NoResultFound

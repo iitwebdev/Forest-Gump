@@ -43,40 +43,24 @@
             <tr><td align="right">Место рождения</td>
             <td><input type="text" name="birthplace" size="25"></td></tr>
 
+            <tr><td align="right">Выберете человека</td>
+            <td><select size="1" name="person">
+                        {% for guy in guys %}
+                            <option value = "{{guy}}">{{guy}}</option>
+                        {% endfor %}
+                    </select></td></tr>
+
+            <tr><td align="right">Выберете отношение</td>
+            <td> <select size="1" name="relations">
+                        {% for relation in relations %}
+                            <option value = "{{relation}}">{{relation}}</option>
+                        {% endfor %}
+                    </select></td></tr>
+
             <tr><td align="center" colspan="2">
             <input type="submit" name="submit" value="Добавить человека"></td></tr>
         </table>
     </form>
-    </p>
-    <h2>Укажите связи</h2>
-    <p>
-        <form method="post">
-            <table>
-                <tr><td align="center">1.
-                    <select size="1" name="person1">
-                        {% for guy in guys %}
-                            <option value = "{{guy}}">{{guy}}</option>
-                        {% endfor %}
-                    </select>
-                </td>
-                <td align="center">2.
-                    <select size="1" name="person2">
-                        {% for guy in guys %}
-                            <option value = "{{guy}}">{{guy}}</option>
-                        {% endfor %}
-                    </select>
-                </td>
-                <td align="center">1 для 2:
-                    <select size="1" name="relations">
-                        {% for relation in relations %}
-                            <option value = "{{relation}}">{{relation}}</option>
-                        {% endfor %}
-                    </select>
-                </td></tr>
-                <tr><td align="center" colspan="3">
-                <input type="submit" name="submit_relations" value="Добавить связь"></td></tr>
-            </table>
-        </form>
     </p>
     <h2>Ваши связи</h2>
     <p>

@@ -7,7 +7,6 @@ from pyramid.authorization import ACLAuthorizationPolicy
 
 from sqlalchemy.pool import NullPool
 from sqlalchemy import create_engine
-
 from myproject.models import get_user
 
 def main(global_config, **settings):

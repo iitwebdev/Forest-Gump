@@ -3,10 +3,8 @@ from pyramid.view import view_config, forbidden_view_config
 from pyramid.response import FileResponse
 from pyramid.security import remember, authenticated_userid, forget
 from pyramid.httpexceptions import HTTPFound, HTTPForbidden
-from myproject.models import register, login, get_user, \
-    add_person, add_persons_relation, all_users, all_persons,\
-    all_relations, del_all_users, del_all_persons, del_all_rels
-
+from myproject.models import add_guy, add_guys_relation, \
+    del_all_tables, login, register, get_user, all_guys, all_users, all_rels
 
 @forbidden_view_config()
 def forbidden_view(request):
@@ -25,9 +23,7 @@ def get_current_user(request):
 
 @view_config(route_name='home', renderer='templates/home.jinja2')
 def my_view_home(request):
-    #del_all_users()
-    #del_all_rels()
-    #del_all_persons()
+    #del_all_tables()
     nxt = request.route_url('profile')
     did_fail = False
     if 'email' in request.POST:
@@ -51,11 +47,10 @@ def my_view(request):
     if 'e-mail' in request.POST:
         user = register(
             request.POST["login"], request.POST["e-mail"],
-            request.POST["password"], request.POST["sex"]
+            request.POST["password"], request.POST['sex']
         )
         if user:
             headers = remember(request, user.id)
-            all_users()
             return HTTPFound(location=nxt, headers=headers)
         else:
             did_fail = True
@@ -77,7 +72,8 @@ def my_view_profile(request):
         return {}
     return {'name': user.name,
             'email': user.email,
-            'sex': user.sex}
+            'sex': user.sex
+    }
 
 @view_config(route_name='about', renderer='templates/about.jinja2')
 def my_view_about(request):
@@ -90,22 +86,22 @@ def my_view_trees(request):
 @view_config(route_name='add', renderer='templates/add_tree.jinja2')
 def my_view_add_tree(request):
     did_fail = False
-    persons = all_persons()
+    persons = all_guys()
     if 'surname' in request.POST:
-        guy = add_person(
+        guy = add_guy(
             request.POST["surname"], request.POST["name"],
-            request.POST["middle_name"], request.POST["birth"], request.POST["end"]
+            request.POST["middle_name"], request.POST["birth"], request.POST['end'], request.POST["birthplace"]
         )
         if guy:
-            persons = all_persons()
+            persons = all_guys()
+            if 'person' in request.POST:
+                add_guys_relation(request.POST["person"], guy, request.POST["relations"])
         else:
             did_fail = True
-    if 'person1' and 'person2' and 'relations' in request.POST:
-        rel = add_persons_relation(request.POST["person1"], request.POST["person2"], request.POST["relations"])
-    relations = all_relations()
+    relations = all_rels()
     return {
         'failed_attempt': did_fail,
-        'relations': [u"Мать", u"Сын", u"Сестра", u"Дядя", u"Бабушка"],
+        'relations': [u"Супруг", u"Родитель"],
         'guys': persons,
         'dict_relations': relations
     }

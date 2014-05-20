@@ -1,18 +1,13 @@
-from pyramid.authentication import SessionAuthenticationPolicy
-from pyramid.config import Configurator
 from sqlalchemy import create_engine
-from pyramid.httpexceptions import HTTPNotFound
 from sqlalchemy.pool import NullPool
-from myproject.models import (
+from myproject.models.user import (
     DBSession,
     Base,
     register,
     all_users,
     User,
     del_all,
-    del_user,
-    all_guys,
-    add_guy
+    del_user
     )
 
 engine = create_engine('sqlite:///gen_tree.db')
@@ -23,7 +18,7 @@ Base.metadata.create_all(engine)
 
 #register("123123","123123","ccccc")
 
-register("sdf,","sdf","sdf")
+register("sdf,","sdf","sdf","222")
 
 #del_user("123")
 
